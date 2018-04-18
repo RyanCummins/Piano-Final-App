@@ -4,12 +4,13 @@
 //
 //  Created by Ryan Cummins on 4/16/18.
 //  Copyright © 2018 Ryan Cummins. All rights reserved.
-// ZIMKA
-//ZIMKA COMMENT NUMBER 2
-import UIKit
 
+import UIKit
+import AVFoundation
 class ViewController: UIViewController {
 
+    var sound = AVAudioPlayer()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -30,6 +31,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func C(_ sender: UITapGestureRecognizer) {
+        ButtonPressC()
     }
     
     @IBAction func D(_ sender: UITapGestureRecognizer) {
@@ -54,7 +56,18 @@ class ViewController: UIViewController {
     @IBAction func DSharpKey(_ sender: UITapGestureRecognizer) {
     }
     
-    
+    func ButtonPressC() {
+        if let path = Bundle.main.path(forResource: "Note C #5 - 4_5_18, 10.49 AM", ofType: "m4a") {
+            let url = URL(fileURLWithPath: path)
+            do {
+                sound = try AVAudioPlayer(contentsOf: url)
+                sound.play()
+            }
+            catch {
+                print("Can't find file")
+            }
+        }
+    }
     
 }
 
