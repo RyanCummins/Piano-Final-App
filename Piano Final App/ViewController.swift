@@ -19,9 +19,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var CKeyLabel: UIView!
     @IBOutlet weak var DKeyLabel: UIView!
     @IBOutlet weak var EKeyLabel: UIView!
+    @IBOutlet weak var FSharpKeyLabel: UIView!
     @IBOutlet weak var GSharpKeyLabel: UIView!
     @IBOutlet weak var ASharpKeyLabel: UIView!
-    @IBOutlet weak var BSharpKeyLabel: UIView!
     @IBOutlet weak var CSharpKeyLabel: UIView!
     @IBOutlet weak var DSharpKeyLabel: UIView!
     

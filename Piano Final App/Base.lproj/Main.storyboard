@@ -188,17 +188,17 @@
                     </view>
                     <connections>
                         <outlet property="AKeyLabel" destination="m1f-bB-9GQ" id="hcg-cg-g2Y"/>
-                        <outlet property="ASharpKeyLabel" destination="5zo-a3-6zn" id="aBp-Uf-zpK"/>
+                        <outlet property="ASharpKeyLabel" destination="Y1X-HR-NSC" id="abd-4O-ML6"/>
                         <outlet property="BKeyLabel" destination="Xsg-VS-7DU" id="xca-gC-Pc6"/>
-                        <outlet property="BSharpKeyLabel" destination="Y1X-HR-NSC" id="zHa-2q-v1S"/>
                         <outlet property="CKeyLabel" destination="ifF-ye-Ku5" id="jSj-D8-QGI"/>
-                        <outlet property="CSharpKeyLabel" destination="vZ3-ur-xvd" id="uYE-OP-zTr"/>
+                        <outlet property="CSharpKeyLabel" destination="vZ3-ur-xvd" id="E3J-Cu-H7u"/>
                         <outlet property="DKeyLabel" destination="0p9-J8-cxJ" id="SvK-NQ-EGA"/>
                         <outlet property="DSharpKeyLabel" destination="0cg-FG-1c0" id="Zeb-54-42a"/>
                         <outlet property="EKeyLabel" destination="dTc-MV-tOt" id="lOf-od-wUF"/>
                         <outlet property="FKeyLabel" destination="TgE-CC-h58" id="Lyt-N3-8gd"/>
+                        <outlet property="FSharpKeyLabel" destination="8Oh-Pm-sff" id="R0E-Qb-NvB"/>
                         <outlet property="GKeyLabel" destination="Scr-Vq-9b7" id="M3T-2x-A2i"/>
-                        <outlet property="GSharpKeyLabel" destination="8Oh-Pm-sff" id="fOW-BX-WeZ"/>
+                        <outlet property="GSharpKeyLabel" destination="5zo-a3-6zn" id="fFV-0S-SbV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
