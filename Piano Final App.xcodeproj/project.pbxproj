@@ -12,7 +12,6 @@
 		04201B382084F7A0007093A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04201B362084F7A0007093A1 /* Main.storyboard */; };
 		04201B3A2084F7A0007093A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04201B392084F7A0007093A1 /* Assets.xcassets */; };
 		04201B3D2084F7A0007093A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04201B3B2084F7A0007093A1 /* LaunchScreen.storyboard */; };
-		8265FF47208E328C007EDC0F /* Note C #1 - 4:4:18, 10.57 AM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8265FF46208E328C007EDC0F /* Note C #1 - 4:4:18, 10.57 AM.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +22,6 @@
 		04201B392084F7A0007093A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04201B3C2084F7A0007093A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04201B3E2084F7A0007093A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8265FF46208E328C007EDC0F /* Note C #1 - 4:4:18, 10.57 AM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Note C #1 - 4:4:18, 10.57 AM.mp3"; path = "../../../../Desktop/Piano Note Sound/Note C #1 - 4:4:18, 10.57 AM.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +68,6 @@
 		82A56B342087A0A80049A9B5 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				8265FF46208E328C007EDC0F /* Note C #1 - 4:4:18, 10.57 AM.mp3 */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -134,7 +131,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8265FF47208E328C007EDC0F /* Note C #1 - 4:4:18, 10.57 AM.mp3 in Resources */,
 				04201B3D2084F7A0007093A1 /* LaunchScreen.storyboard in Resources */,
 				04201B3A2084F7A0007093A1 /* Assets.xcassets in Resources */,
 				04201B382084F7A0007093A1 /* Main.storyboard in Resources */,
