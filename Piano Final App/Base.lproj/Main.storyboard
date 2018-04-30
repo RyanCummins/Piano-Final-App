@@ -22,122 +22,8 @@
                                 <rect key="frame" x="0.0" y="-2" width="666" height="377"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TgE-CC-h58" userLabel="F key">
-                                <rect key="frame" x="6" y="65" width="75" height="304"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="9Ki-eN-gZe" appends="YES" id="ek2-My-A9U"/>
-                                </connections>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Scr-Vq-9b7" userLabel="G key">
-                                <rect key="frame" x="88" y="65" width="95" height="304"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Oh-Pm-sff">
-                                        <rect key="frame" x="-26" y="0.0" width="45" height="177"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <gestureRecognizers/>
-                                        <connections>
-                                            <outletCollection property="gestureRecognizers" destination="DED-bU-A13" appends="YES" id="yx4-XG-jGy"/>
-                                        </connections>
-                                    </view>
-                                </subviews>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="BYu-2J-MO9" appends="YES" id="w8R-SI-b8y"/>
-                                </connections>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m1f-bB-9GQ">
-                                <rect key="frame" x="191" y="65" width="98" height="304"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5zo-a3-6zn">
-                                        <rect key="frame" x="-27" y="0.0" width="45" height="177"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <gestureRecognizers/>
-                                        <connections>
-                                            <outletCollection property="gestureRecognizers" destination="jVo-xa-fdQ" appends="YES" id="fmL-5y-rIz"/>
-                                        </connections>
-                                    </view>
-                                </subviews>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="uNq-Fx-GcQ" appends="YES" id="Lbj-Yd-eha"/>
-                                </connections>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xsg-VS-7DU">
-                                <rect key="frame" x="297" y="65" width="86" height="302"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y1X-HR-NSC">
-                                        <rect key="frame" x="-26" y="0.0" width="45" height="177"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <gestureRecognizers/>
-                                        <connections>
-                                            <outletCollection property="gestureRecognizers" destination="IS2-jC-fss" appends="YES" id="9DW-jp-LT1"/>
-                                        </connections>
-                                    </view>
-                                </subviews>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="kE3-Or-hVm" appends="YES" id="yoD-hK-HLL"/>
-                                </connections>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ifF-ye-Ku5">
-                                <rect key="frame" x="388" y="65" width="89" height="304"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="fRm-FA-F9u" appends="YES" id="Cxc-Ql-daT"/>
-                                </connections>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0p9-J8-cxJ">
-                                <rect key="frame" x="485" y="65" width="92" height="302"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="m5n-jz-5QE" appends="YES" id="yFd-Vm-Jbh"/>
-                                </connections>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dTc-MV-tOt">
-                                <rect key="frame" x="585" y="66" width="75" height="302"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="VaP-Uh-b0c" appends="YES" id="acd-pp-SXJ"/>
-                                </connections>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vZ3-ur-xvd">
-                                <rect key="frame" x="457" y="65" width="45" height="179"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="Hcx-fS-tiL" appends="YES" id="cDg-Ey-Isx"/>
-                                </connections>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0cg-FG-1c0">
-                                <rect key="frame" x="558" y="61" width="45" height="183"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="rkE-eZ-hSS" appends="YES" id="nIF-cj-2Mu"/>
-                                </connections>
-                            </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bXU-ZA-dJ7">
-                                <rect key="frame" x="255" y="9" width="157" height="43"/>
+                                <rect key="frame" x="255" y="11" width="157" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="igh-R3-UwR">
@@ -171,125 +57,125 @@
                                 <color key="backgroundColor" red="0.63352633248730972" green="0.63352633248730972" blue="0.63352633248730972" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="OhK-aP-uSb">
-                                <rect key="frame" x="22" y="17" width="201" height="29"/>
+                                <rect key="frame" x="53" y="17" width="139" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
-                                    <segment title="Percussion"/>
-                                    <segment title="Animal Noises"/>
+                                    <segment title="Normal"/>
+                                    <segment title="Begginer"/>
                                 </segments>
                                 <connections>
-                                    <action selector="soundChanger:" destination="BYZ-38-t0r" eventType="valueChanged" id="7UT-hc-d5A"/>
+                                    <action selector="easyToHard:" destination="BYZ-38-t0r" eventType="valueChanged" id="J8Q-w8-Lvz"/>
                                 </connections>
                             </segmentedControl>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="vak-Ob-Mxb">
-                                <rect key="frame" x="487" y="12" width="118" height="30"/>
+                                <rect key="frame" x="487" y="10" width="118" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="octaveSliderAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="Zgy-vI-95J"/>
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Middle Octave" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ek8-U3-eh7">
-                                <rect key="frame" x="526" y="37" width="41" height="30"/>
+                                <rect key="frame" x="526" y="35" width="41" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="9"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="High Octave" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xdj-L2-40c">
-                                <rect key="frame" x="575" y="37" width="39" height="30"/>
+                                <rect key="frame" x="575" y="35" width="39" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="9"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Low Octave" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QDz-6A-NlS">
-                                <rect key="frame" x="480" y="37" width="38" height="30"/>
+                                <rect key="frame" x="480" y="35" width="38" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="9"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SP7-43-Odh">
+                                <rect key="frame" x="8" y="66" width="73" height="302"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ask-a7-eGs">
+                                <rect key="frame" x="87" y="66" width="96" height="302"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uUY-t0-m5u">
+                                <rect key="frame" x="189" y="65" width="98" height="302"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tbB-eb-L8x">
+                                <rect key="frame" x="295" y="66" width="86" height="302"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NoS-1P-zit">
+                                <rect key="frame" x="389" y="65" width="86" height="302"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vzO-Op-i5b">
+                                <rect key="frame" x="483" y="65" width="92" height="302"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6GE-cQ-f1X">
+                                <rect key="frame" x="61" y="66" width="47" height="177"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dCA-YR-bbV">
+                                <rect key="frame" x="166" y="63" width="47" height="180"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cPy-9b-a7v">
+                                <rect key="frame" x="270" y="64" width="47" height="179"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gKS-YU-Sf3">
+                                <rect key="frame" x="460" y="64" width="47" height="179"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qnb-32-fZo">
+                                <rect key="frame" x="556" y="64" width="47" height="179"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gl1-ED-mdn">
+                                <rect key="frame" x="583" y="64" width="83" height="303"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="AKeyLabel" destination="m1f-bB-9GQ" id="hcg-cg-g2Y"/>
-                        <outlet property="ASharpKeyLabel" destination="Y1X-HR-NSC" id="abd-4O-ML6"/>
-                        <outlet property="BKeyLabel" destination="Xsg-VS-7DU" id="xca-gC-Pc6"/>
-                        <outlet property="CKeyLabel" destination="ifF-ye-Ku5" id="jSj-D8-QGI"/>
-                        <outlet property="CSharpKeyLabel" destination="vZ3-ur-xvd" id="E3J-Cu-H7u"/>
-                        <outlet property="DKeyLabel" destination="0p9-J8-cxJ" id="SvK-NQ-EGA"/>
-                        <outlet property="DSharpKeyLabel" destination="0cg-FG-1c0" id="Zeb-54-42a"/>
-                        <outlet property="EKeyLabel" destination="dTc-MV-tOt" id="lOf-od-wUF"/>
-                        <outlet property="FKeyLabel" destination="TgE-CC-h58" id="Lyt-N3-8gd"/>
-                        <outlet property="FSharpKeyLabel" destination="8Oh-Pm-sff" id="R0E-Qb-NvB"/>
-                        <outlet property="GKeyLabel" destination="Scr-Vq-9b7" id="M3T-2x-A2i"/>
-                        <outlet property="GSharpKeyLabel" destination="5zo-a3-6zn" id="fFV-0S-SbV"/>
+                        <outlet property="AKey" destination="uUY-t0-m5u" id="tIB-us-Kqh"/>
+                        <outlet property="ASharpKey" destination="cPy-9b-a7v" id="7TW-AC-JeC"/>
+                        <outlet property="BKey" destination="tbB-eb-L8x" id="WbK-RR-We0"/>
+                        <outlet property="CKey" destination="NoS-1P-zit" id="Bkc-7w-eNU"/>
+                        <outlet property="CSharpKey" destination="gKS-YU-Sf3" id="Kbf-fF-bue"/>
+                        <outlet property="DKey" destination="vzO-Op-i5b" id="hoD-rI-LVv"/>
+                        <outlet property="DSharpKey" destination="qnb-32-fZo" id="wLS-EO-j5H"/>
+                        <outlet property="EKey" destination="gl1-ED-mdn" id="K6i-96-xm6"/>
+                        <outlet property="FKey" destination="SP7-43-Odh" id="g5i-KP-sXd"/>
+                        <outlet property="FSharpKey" destination="6GE-cQ-f1X" id="T0E-2q-jUJ"/>
+                        <outlet property="GKey" destination="ask-a7-eGs" id="vaF-vE-9vH"/>
+                        <outlet property="GSharpKey" destination="dCA-YR-bbV" id="XgW-s2-iRw"/>
                         <outlet property="octaveSlider" destination="vak-Ob-Mxb" id="NEq-tO-z3P"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="9Ki-eN-gZe">
-                    <connections>
-                        <action selector="F:" destination="BYZ-38-t0r" id="lir-eP-bH3"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="BYu-2J-MO9">
-                    <connections>
-                        <action selector="G:" destination="BYZ-38-t0r" id="mu3-dw-0B9"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="uNq-Fx-GcQ">
-                    <connections>
-                        <action selector="A:" destination="BYZ-38-t0r" id="a2g-64-EsU"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="kE3-Or-hVm">
-                    <connections>
-                        <action selector="B:" destination="BYZ-38-t0r" id="AWR-Y9-Gvu"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="fRm-FA-F9u">
-                    <connections>
-                        <action selector="C:" destination="BYZ-38-t0r" id="01s-4F-lpR"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="m5n-jz-5QE">
-                    <connections>
-                        <action selector="D:" destination="BYZ-38-t0r" id="pQM-v3-x12"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="VaP-Uh-b0c">
-                    <connections>
-                        <action selector="E:" destination="BYZ-38-t0r" id="Vn1-Vt-Ah7"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="DED-bU-A13">
-                    <connections>
-                        <action selector="FSharpKey:" destination="BYZ-38-t0r" id="icp-2m-Ksz"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="jVo-xa-fdQ">
-                    <connections>
-                        <action selector="GSharpKey:" destination="BYZ-38-t0r" id="OiL-M4-yX9"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="IS2-jC-fss">
-                    <connections>
-                        <action selector="ASharpKey:" destination="BYZ-38-t0r" id="96w-Yl-abq"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="Hcx-fS-tiL">
-                    <connections>
-                        <action selector="CSharpKey:" destination="BYZ-38-t0r" id="uit-md-V4y"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="rkE-eZ-hSS">
-                    <connections>
-                        <action selector="DSharpKey:" destination="BYZ-38-t0r" id="Owd-FK-Sns"/>
-                    </connections>
-                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-87.706146926536732" y="133.59999999999999"/>
         </scene>
