@@ -22,6 +22,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var DKey: UIButton!
     @IBOutlet weak var EKey: UIButton!
     
+    @IBOutlet weak var FKeyLabel: UILabel!
     
     @IBOutlet weak var FSharpKey: UIButton!
     @IBOutlet weak var GSharpKey: UIButton!
