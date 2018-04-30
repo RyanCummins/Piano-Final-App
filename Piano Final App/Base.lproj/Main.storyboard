@@ -173,6 +173,7 @@
                         <outlet property="GKey" destination="ask-a7-eGs" id="vaF-vE-9vH"/>
                         <outlet property="GSharpKey" destination="dCA-YR-bbV" id="XgW-s2-iRw"/>
                         <outlet property="octaveSlider" destination="vak-Ob-Mxb" id="NEq-tO-z3P"/>
+                        <outlet property="segmentedController" destination="OhK-aP-uSb" id="w6D-1m-0xR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

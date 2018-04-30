@@ -30,6 +30,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var DSharpKey: UIButton!
     
     
+    @IBOutlet weak var segmentedController: UISegmentedControl!
     @IBOutlet weak var octaveSlider: UISlider!
     //////////Override func//////////
     override func viewDidLoad() {
@@ -42,9 +43,11 @@ class ViewController: UIViewController {
     }
     
     @IBAction func easyToHard(_ sender: UISegmentedControl) {
-        switch segmentedControl.selectedSegmentIndex {
+        switch segmentedController.selectedSegmentIndex {
        case 0:
-         FKey.text = 
+         FKey.text = "F"
+        default:
+            result = 0
         }
     }
 
