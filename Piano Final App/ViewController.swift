@@ -110,7 +110,7 @@ class ViewController: UIViewController {
     }
     /////////Sound Functions////////
     func ButtonPressC() {
-        if let path = Bundle.main.path(forResource: "Note C #5 - 4_5_18, 10.49 AM", ofType: "mp3") {
+        if let path = Bundle.main.path(forResource: "REAL NOTE C", ofType: "mp3") {
             let url = URL(fileURLWithPath: path)
             do {
                 sound = try AVAudioPlayer(contentsOf: url)
