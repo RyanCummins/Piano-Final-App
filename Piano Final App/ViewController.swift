@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     var buttonTapped = Bool()
     
     ///////////Keys as Outlets////////
-  
+    
     @IBOutlet weak var FKey: UIButton!
     @IBOutlet weak var GKey: UIButton!
     @IBOutlet weak var AKey: UIButton!
@@ -63,16 +63,31 @@ class ViewController: UIViewController {
     }
     
     @IBAction func easyToHard(_ sender: UISegmentedControl) {
+        var result: String
         switch segmentedController.selectedSegmentIndex {
-       case 0:
-         FKey.text = "F"
+        case 0:
+            FKeyLabel.text = ""
+            GKeyLabel.text = ""
+            AKeyLabel.text = ""
+            BKeyLabel.text = ""
+            CKeyLabel.text = ""
+            DKeyLabel.text = ""
+            EKeyLabel.text = ""
+        case 1:
+            FKeyLabel.text = "F"
+            GKeyLabel.text = "G"
+            AKeyLabel.text = "A"
+            BKeyLabel.text = "B"
+            CKeyLabel.text = "C"
+            DKeyLabel.text = "D"
+            EKeyLabel.text = "E"
         default:
-            result = 0
+            result = ""
         }
     }
-
     
     
-
+    
+    
 }
 
