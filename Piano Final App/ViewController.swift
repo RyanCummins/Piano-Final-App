@@ -46,7 +46,7 @@ class ViewController: UIViewController {
         
     }
     func buttonPressSix() {
-        if let path = Bundle.main.path(forResource: "REAL NOTE Ce", ofType: "mp3") {
+        if let path = Bundle.main.path(forResource: "REAL NOTE C", ofType: "mp3") {
             let url = URL(fileURLWithPath: path)
             do {
                 sound = try AVAudioPlayer(contentsOf: url)
