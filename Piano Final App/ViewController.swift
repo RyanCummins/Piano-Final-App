@@ -45,7 +45,19 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
     }
-   
+    func buttonPressSix() {
+        if let path = Bundle.main.path(forResource: "REAL NOTE Ce", ofType: "mp3") {
+            let url = URL(fileURLWithPath: path)
+            do {
+                sound = try AVAudioPlayer(contentsOf: url)
+                sound.play()
+            }
+            catch {
+                print("Can't find file")
+            }
+        }
+    }
+    
     @IBAction func octaveSliderAction(_ sender: UISlider) {
         
     }
