@@ -7,15 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04035F4E20A90C81004ECA0F /* CKey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04035F4D20A90C81004ECA0F /* CKey.mp3 */; };
+		04035F5020A90C9C004ECA0F /* DKey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04035F4F20A90C9C004ECA0F /* DKey.mp3 */; };
+		04035F5220A90CA4004ECA0F /* EKey .mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04035F5120A90CA4004ECA0F /* EKey .mp3 */; };
+		04035F5420A90CDF004ECA0F /* CSharpKey .mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04035F5320A90CDF004ECA0F /* CSharpKey .mp3 */; };
+		04035F5620A90CFD004ECA0F /* DSharpKey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04035F5520A90CFD004ECA0F /* DSharpKey.mp3 */; };
+		04035F5820A9E6C1004ECA0F /* FKey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04035F5720A9E6C1004ECA0F /* FKey.mp3 */; };
+		04035F5A20A9E6CD004ECA0F /* FSharpKey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04035F5920A9E6CD004ECA0F /* FSharpKey.mp3 */; };
+		04035F5C20A9E6D7004ECA0F /* GKey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04035F5B20A9E6D7004ECA0F /* GKey.mp3 */; };
+		04035F5E20A9E6E0004ECA0F /* GSharpKey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04035F5D20A9E6E0004ECA0F /* GSharpKey.mp3 */; };
+		04035F6020A9E6E9004ECA0F /* AKey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04035F5F20A9E6E9004ECA0F /* AKey.mp3 */; };
+		04035F6220A9E6F5004ECA0F /* ASharpKey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04035F6120A9E6F5004ECA0F /* ASharpKey.mp3 */; };
+		04035F6420A9E702004ECA0F /* BKey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04035F6320A9E702004ECA0F /* BKey.mp3 */; };
+		04035F6620AB3997004ECA0F /* 100BPM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04035F6520AB3997004ECA0F /* 100BPM.mp3 */; };
 		04201B332084F7A0007093A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04201B322084F7A0007093A1 /* AppDelegate.swift */; };
 		04201B352084F7A0007093A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04201B342084F7A0007093A1 /* ViewController.swift */; };
 		04201B382084F7A0007093A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04201B362084F7A0007093A1 /* Main.storyboard */; };
 		04201B3A2084F7A0007093A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04201B392084F7A0007093A1 /* Assets.xcassets */; };
 		04201B3D2084F7A0007093A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04201B3B2084F7A0007093A1 /* LaunchScreen.storyboard */; };
-		8219C5D72098C42000FA0788 /* REAL NOTE C.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8219C5D62098C42000FA0788 /* REAL NOTE C.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04035F4D20A90C81004ECA0F /* CKey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CKey.mp3; sourceTree = "<group>"; };
+		04035F4F20A90C9C004ECA0F /* DKey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DKey.mp3; sourceTree = "<group>"; };
+		04035F5120A90CA4004ECA0F /* EKey .mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "EKey .mp3"; sourceTree = "<group>"; };
+		04035F5320A90CDF004ECA0F /* CSharpKey .mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "CSharpKey .mp3"; sourceTree = "<group>"; };
+		04035F5520A90CFD004ECA0F /* DSharpKey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DSharpKey.mp3; sourceTree = "<group>"; };
+		04035F5720A9E6C1004ECA0F /* FKey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FKey.mp3; sourceTree = "<group>"; };
+		04035F5920A9E6CD004ECA0F /* FSharpKey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FSharpKey.mp3; sourceTree = "<group>"; };
+		04035F5B20A9E6D7004ECA0F /* GKey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GKey.mp3; sourceTree = "<group>"; };
+		04035F5D20A9E6E0004ECA0F /* GSharpKey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GSharpKey.mp3; sourceTree = "<group>"; };
+		04035F5F20A9E6E9004ECA0F /* AKey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AKey.mp3; sourceTree = "<group>"; };
+		04035F6120A9E6F5004ECA0F /* ASharpKey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ASharpKey.mp3; sourceTree = "<group>"; };
+		04035F6320A9E702004ECA0F /* BKey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BKey.mp3; sourceTree = "<group>"; };
+		04035F6520AB3997004ECA0F /* 100BPM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 100BPM.mp3; sourceTree = "<group>"; };
 		04201B2F2084F7A0007093A1 /* Piano Final App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Piano Final App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04201B322084F7A0007093A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04201B342084F7A0007093A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +48,6 @@
 		04201B392084F7A0007093A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04201B3C2084F7A0007093A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04201B3E2084F7A0007093A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8219C5D62098C42000FA0788 /* REAL NOTE C.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "REAL NOTE C.mp3"; path = "../../../../REAL NOTE C.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +94,19 @@
 		82A56B342087A0A80049A9B5 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				8219C5D62098C42000FA0788 /* REAL NOTE C.mp3 */,
+				04035F5720A9E6C1004ECA0F /* FKey.mp3 */,
+				04035F5920A9E6CD004ECA0F /* FSharpKey.mp3 */,
+				04035F5B20A9E6D7004ECA0F /* GKey.mp3 */,
+				04035F5D20A9E6E0004ECA0F /* GSharpKey.mp3 */,
+				04035F5F20A9E6E9004ECA0F /* AKey.mp3 */,
+				04035F6120A9E6F5004ECA0F /* ASharpKey.mp3 */,
+				04035F6320A9E702004ECA0F /* BKey.mp3 */,
+				04035F4D20A90C81004ECA0F /* CKey.mp3 */,
+				04035F5320A90CDF004ECA0F /* CSharpKey .mp3 */,
+				04035F4F20A90C9C004ECA0F /* DKey.mp3 */,
+				04035F5520A90CFD004ECA0F /* DSharpKey.mp3 */,
+				04035F5120A90CA4004ECA0F /* EKey .mp3 */,
+				04035F6520AB3997004ECA0F /* 100BPM.mp3 */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -134,10 +170,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04035F5C20A9E6D7004ECA0F /* GKey.mp3 in Resources */,
+				04035F5E20A9E6E0004ECA0F /* GSharpKey.mp3 in Resources */,
+				04035F5820A9E6C1004ECA0F /* FKey.mp3 in Resources */,
+				04035F6220A9E6F5004ECA0F /* ASharpKey.mp3 in Resources */,
 				04201B3D2084F7A0007093A1 /* LaunchScreen.storyboard in Resources */,
 				04201B3A2084F7A0007093A1 /* Assets.xcassets in Resources */,
-				8219C5D72098C42000FA0788 /* REAL NOTE C.mp3 in Resources */,
+				04035F5020A90C9C004ECA0F /* DKey.mp3 in Resources */,
+				04035F6620AB3997004ECA0F /* 100BPM.mp3 in Resources */,
+				04035F5220A90CA4004ECA0F /* EKey .mp3 in Resources */,
+				04035F4E20A90C81004ECA0F /* CKey.mp3 in Resources */,
+				04035F5A20A9E6CD004ECA0F /* FSharpKey.mp3 in Resources */,
 				04201B382084F7A0007093A1 /* Main.storyboard in Resources */,
+				04035F5420A90CDF004ECA0F /* CSharpKey .mp3 in Resources */,
+				04035F6420A9E702004ECA0F /* BKey.mp3 in Resources */,
+				04035F5620A90CFD004ECA0F /* DSharpKey.mp3 in Resources */,
+				04035F6020A9E6E9004ECA0F /* AKey.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
