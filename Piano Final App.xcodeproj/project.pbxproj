@@ -26,7 +26,7 @@
 		049BA71020B31BCB000D948D /* FSharpNoteOfficial.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 049BA70520B31BCB000D948D /* FSharpNoteOfficial.mp3 */; };
 		049BA71120B31BCB000D948D /* CNoteOfficial.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 049BA70620B31BCB000D948D /* CNoteOfficial.mp3 */; };
 		049BA71220B31BCB000D948D /* CSharpNoteOfficial.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 049BA70720B31BCB000D948D /* CSharpNoteOfficial.mp3 */; };
-		049BA71620B473A7000D948D /* 100bpmOfficial.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 049BA71520B473A7000D948D /* 100bpmOfficial.mp3 */; };
+		82AB4DE720B47AA90068DAA4 /* 100bpmOfficial.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 82AB4DE620B47AA90068DAA4 /* 100bpmOfficial.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,7 +51,7 @@
 		049BA70520B31BCB000D948D /* FSharpNoteOfficial.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FSharpNoteOfficial.mp3; sourceTree = "<group>"; };
 		049BA70620B31BCB000D948D /* CNoteOfficial.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CNoteOfficial.mp3; sourceTree = "<group>"; };
 		049BA70720B31BCB000D948D /* CSharpNoteOfficial.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CSharpNoteOfficial.mp3; sourceTree = "<group>"; };
-		049BA71520B473A7000D948D /* 100bpmOfficial.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 100bpmOfficial.mp3; sourceTree = "<group>"; };
+		82AB4DE620B47AA90068DAA4 /* 100bpmOfficial.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 100bpmOfficial.mp3; path = ../../../../../Downloads/100bpmOfficial.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +100,7 @@
 		82A56B342087A0A80049A9B5 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				049BA71520B473A7000D948D /* 100bpmOfficial.mp3 */,
+				82AB4DE620B47AA90068DAA4 /* 100bpmOfficial.mp3 */,
 				049BA6FB20B31B9E000D948D /* ANoteOfficial.mp3 */,
 				049BA70320B31BCA000D948D /* ASharpNoteOfficial.mp3 */,
 				049BA6FE20B31BCA000D948D /* BNoteOfficial.mp3 */,
@@ -182,6 +182,7 @@
 				049BA70A20B31BCB000D948D /* DSharpNoteOfficial.mp3 in Resources */,
 				049BA70920B31BCB000D948D /* BNoteOfficial.mp3 in Resources */,
 				04201B3A2084F7A0007093A1 /* Assets.xcassets in Resources */,
+				82AB4DE720B47AA90068DAA4 /* 100bpmOfficial.mp3 in Resources */,
 				049BA70E20B31BCB000D948D /* ASharpNoteOfficial.mp3 in Resources */,
 				049BA71120B31BCB000D948D /* CNoteOfficial.mp3 in Resources */,
 				049BA71220B31BCB000D948D /* CSharpNoteOfficial.mp3 in Resources */,
@@ -190,7 +191,6 @@
 				049BA6FC20B31B9E000D948D /* ANoteOfficial.mp3 in Resources */,
 				049BA71020B31BCB000D948D /* FSharpNoteOfficial.mp3 in Resources */,
 				04201B382084F7A0007093A1 /* Main.storyboard in Resources */,
-				049BA71620B473A7000D948D /* 100bpmOfficial.mp3 in Resources */,
 				049BA70F20B31BCB000D948D /* ENoteOfficial.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
