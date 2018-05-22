@@ -170,7 +170,7 @@ class ViewController: UIViewController {
     
     ////////sound functions/
     func buttonPressF() {
-        if let path = Bundle.main.path(forResource: "FKey", ofType: "mp3") {
+        if let path = Bundle.main.path(forResource: "FNoteOfficial", ofType: "mp3") {
             let url = URL(fileURLWithPath: path)
             do {
                 F = try AVAudioPlayer(contentsOf: url)
@@ -182,7 +182,7 @@ class ViewController: UIViewController {
         }
     }
     func buttonPressFSharp() {
-        if let path = Bundle.main.path(forResource: "FSharpKey", ofType: "mp3") {
+        if let path = Bundle.main.path(forResource: "FSharpNoteOfficial", ofType: "mp3") {
             let url = URL(fileURLWithPath: path)
             do {
                 FSharp = try AVAudioPlayer(contentsOf: url)
@@ -194,7 +194,7 @@ class ViewController: UIViewController {
         }
     }
     func buttonPressG() {
-        if let path = Bundle.main.path(forResource: "GKey", ofType: "mp3") {
+        if let path = Bundle.main.path(forResource: "GNoteOfficial", ofType: "mp3") {
             let url = URL(fileURLWithPath: path)
             do {
                 G = try AVAudioPlayer(contentsOf: url)
@@ -206,7 +206,7 @@ class ViewController: UIViewController {
         }
     }
     func buttonPressGSharp() {
-        if let path = Bundle.main.path(forResource: "GSharpKey", ofType: "mp3") {
+        if let path = Bundle.main.path(forResource: "GSharpNoteOfficial", ofType: "mp3") {
             let url = URL(fileURLWithPath: path)
             do {
                 GSharp = try AVAudioPlayer(contentsOf: url)
@@ -218,7 +218,7 @@ class ViewController: UIViewController {
         }
     }
     func buttonPressA() {
-        if let path = Bundle.main.path(forResource: "AKey", ofType: "mp3") {
+        if let path = Bundle.main.path(forResource: "ANoteOfficial", ofType: "mp3") {
             let url = URL(fileURLWithPath: path)
             do {
                 A = try AVAudioPlayer(contentsOf: url)
@@ -230,7 +230,7 @@ class ViewController: UIViewController {
         }
     }
     func buttonPressASharp() {
-        if let path = Bundle.main.path(forResource: "ASharpKey", ofType: "mp3") {
+        if let path = Bundle.main.path(forResource: "ASharpNoteOfficial", ofType: "mp3") {
             let url = URL(fileURLWithPath: path)
             do {
                 ASharp = try AVAudioPlayer(contentsOf: url)
@@ -243,7 +243,7 @@ class ViewController: UIViewController {
     }
     
     func buttonPressB() {
-        if let path = Bundle.main.path(forResource: "BKey", ofType: "mp3") {
+        if let path = Bundle.main.path(forResource: "BNoteOfficial", ofType: "mp3") {
             let url = URL(fileURLWithPath: path)
             do {
                 B = try AVAudioPlayer(contentsOf: url)
@@ -255,7 +255,7 @@ class ViewController: UIViewController {
         }
     }
     func buttonPressC() {
-        if let path = Bundle.main.path(forResource: "CKey", ofType: "mp3") {
+        if let path = Bundle.main.path(forResource: "CNoteOfficial", ofType: "mp3") {
             let url = URL(fileURLWithPath: path)
             do {
                 C = try AVAudioPlayer(contentsOf: url)
@@ -267,7 +267,7 @@ class ViewController: UIViewController {
         }
     }
     func buttonPressCSharp() {
-        if let path = Bundle.main.path(forResource: "CSharpKey ", ofType: "mp3") {
+        if let path = Bundle.main.path(forResource: "CSharpNoteOfficial", ofType: "mp3") {
             let url = URL(fileURLWithPath: path)
             do {
                 CSharp = try AVAudioPlayer(contentsOf: url)
@@ -280,7 +280,7 @@ class ViewController: UIViewController {
     }
     
     func buttonPressD() {
-        if let path = Bundle.main.path(forResource: "DKey", ofType: "mp3") {
+        if let path = Bundle.main.path(forResource: "DNoteOfficial", ofType: "mp3") {
             let url = URL(fileURLWithPath: path)
             do {
                 D = try AVAudioPlayer(contentsOf: url)
@@ -292,7 +292,7 @@ class ViewController: UIViewController {
         }
     }
     func buttonPressDSharp() {
-        if let path = Bundle.main.path(forResource: "DSharpKey", ofType: "mp3") {
+        if let path = Bundle.main.path(forResource: "DSharpNoteOfficial", ofType: "mp3") {
             let url = URL(fileURLWithPath: path)
             do {
                 DSharp = try AVAudioPlayer(contentsOf: url)
@@ -304,7 +304,7 @@ class ViewController: UIViewController {
         }
     }
     func buttonPressE() {
-        if let path = Bundle.main.path(forResource: "EKey ", ofType: "mp3") {
+        if let path = Bundle.main.path(forResource: "ENoteOfficial", ofType: "mp3") {
             let url = URL(fileURLWithPath: path)
             do {
                 E = try AVAudioPlayer(contentsOf: url)
@@ -317,7 +317,7 @@ class ViewController: UIViewController {
     }
     
     func metranomeStart() {
-        if let path = Bundle.main.path(forResource: "100BPM", ofType: "mp3") {
+        if let path = Bundle.main.path(forResource: "100bpmOfficial", ofType: "mp3") {
             let url = URL(fileURLWithPath: path)
             do {
                 metranome = try AVAudioPlayer(contentsOf: url)
